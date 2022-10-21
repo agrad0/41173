@@ -1,0 +1,24 @@
+div {
+    width: 1032px;
+}
+
+div > input,
+div > span {
+    width: 61px;
+    text-align: center;
+    display: inline-block;
+    overflow-wrap: break-word;
+}
+
+div > :nth-child(1) {
+    min-width: 153px;
+}
+
+div > :nth-child(9) {
+    min-width: 170px;
+}
+
+#title > span {
+    margin: 3px 0.3%;
+}
+
